@@ -1,4 +1,5 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT 
+
 // Made by @Flexyledger
 
 pragma solidity ^0.8.4;
@@ -6,7 +7,6 @@ pragma solidity ^0.8.4;
 import "erc721a/contracts/ERC721A.sol";
 
 contract FreeMintToken is ERC721A {
-
     uint256 public constant USER_LIMIT = 20;
     uint256 public constant MAX_SUPPLY = 20_000;
 
