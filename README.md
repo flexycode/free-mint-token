@@ -21,10 +21,25 @@ git clone https://github.com/flexycode/free-mint-token.git 
 ```
 
 2. Install the dependencies:
+```bash
+npm install 
+```
+## Next.js File Setup
 
-* npm install
+To set up Next.js for this project, follow these steps:
 
-## Usage 
+1. Install Next.js globally:
+
+```bash
+npm install -g next
+```
+
+2. Create a pages directory in the root of your project:
+```bash
+mkdir pages
+```
+
+## Usage  
 
 To mint tokens using ERC-721a, follow these steps:
 
